@@ -2,8 +2,7 @@
 Originally required to make a single instruction manual of Sharepoint for a school assignment, 
 became a webpage with (almost) all of MS365's manuals hosted.
 
-The webpage includes:
-• Word
+The webpage includes: Word
 • Powerpoint
 • Excel
 • OneNote
