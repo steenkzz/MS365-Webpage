@@ -10,7 +10,7 @@
   background-color: var(--color-footer);
   color: var(--color-text);
   text-align: center;
-  z-index: 1;
+  z-index: 97;
 }
 .ftr.main > span {
   color: var(--color-text);

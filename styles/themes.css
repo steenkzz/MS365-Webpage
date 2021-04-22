@@ -2,6 +2,9 @@
   --color-primary: white;
   --color-header: #F3F3F3;
   --color-content: #c7c4c4;
+  --color-content-op: rgba(255, 255, 255, 0.2);
+  --color-notice: #AFADAD;
+  --color-link: #4F70A5;
   --color-footer: #F3F3F3;
   --color-text: black;
   --color-text-2: black;
@@ -13,6 +16,7 @@
   --color-primary: black;
   --color-header: #141414;
   --color-content: #2E2E2E;
+  --color-content-op: rgba(0, 0, 0, 0.1);
   --color-footer: #141414;
   --color-text: white;
   --color-text-2: white;

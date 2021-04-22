@@ -14,6 +14,7 @@
 <link rel="stylesheet" href="..\styles\mediaQueries.css">
 <link rel="stylesheet" href="..\styles\themes.css">
 <link rel="stylesheet" href="..\styles\toTopButton.css">
+<link rel="stylesheet" href="..\styles\manualContent.css">
 <script src="..\script.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -120,9 +121,51 @@
 </div>
 
 <!-- main content on page -->
-<div class="cnt-main" onclick="closeMenuLeft();closeMenuRight()">
-    <h1>Microsoft Sharepoint</h1>
+<div class="sp-cnt-main" onclick="closeMenuLeft();closeMenuRight()">
+
+    <h1 class="sp-title">Sharepoint</h1>
+
+    <div class="sp-cnt-main-flexbox">
+        <div class="sp-cnt-sidebar-main">
+            <div class="sp-cnt-sidebar-item">Aanmelden</div>
+            <div class="sp-cnt-sidebar-item">Ontdekken</div>
+            <div class="sp-cnt-sidebar-item">Samenwerken</div>
+            <div class="sp-cnt-sidebar-item">Een site maken</div>
+            <div class="sp-cnt-sidebar-item">Mobiele apps instellen</div>
+            <div class="sp-cnt-sidebar-item">Overige informatie</div>
+        </div>
+        
+        <div class="sp-cnt-text-main">
+            <h1 class="sp-text-title">Aanmelden bij Sharepoint</h1>
+            <div class="sp-notice">
+                <b>Opmerking:</b>
+                Tenzij anders aangegeven, verwijzen de afbeeldingen in dit onderwerp naar de modus Modern. Zie 
+                <a class="sp-link">Welke versie van SharePoint gebruik ik?</a> 
+                voor meer informatie.
+            </div>
+            <br>
+            <img class="sp-image" src="../images/sp1.png">
+            <br>
+            U hoeft geen software te installeren op uw computer om SharePoint te gebruiken. U maakt verbinding via uw webbrowser.
+            <br>
+            <br>
+            1. Meld u aan met uw werk- of schoolaccount op <a class="sp-link">www.office.com/signin</a>.
+            <br>
+            <br>
+            2. Selecteer de tegel SharePoint op de startpagina van Microsoft 365 of in het startprogramma voor apps.
+            <br>
+            <br>
+            Zie <a class="sp-link">Waar kan ik me aanmelden bij Microsoft 365</a> voor meer informatie. 
+            <br>
+            <br>
+            <br>
+            <hr style="border: 1px solid grey;">
+            <br>
+            Bepaalde functionaliteit wordt geleidelijk geïntroduceerd bij organisaties die de <a class="sp-link">Targeted Release-opties in Office 365</a> hebben ingesteld. Dit betekent dat u bepaalde functies nog niet kunt zien of dat de functies er anders uit kunnen zien dan beschreven in de Help-artikelen.
+        </div>
+    </div>
     
+    <!-- to top button -->
     <button onclick="topFunction()" id="myBtn" title="Go to top">
         <i class="fas fa-arrow-up"></i>
     </button>
