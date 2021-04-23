@@ -14,7 +14,6 @@
   background-color: var(--color-content);
   color: var(--color-text);
   border: 1px solid transparent;
-  padding-bottom: 100%;
 }
 .sp-cnt-main-flexbox {
   display: flex;
@@ -33,7 +32,20 @@
   background-color: var(--color-header);
   margin-top: 5px;
   border: 2px solid black;
-  color: var(--color-text2);
+  color: var(--color-text-2);
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 500;
+}
+.sp-cnt-sidebar-item:hover {
+  background-color: var(--color-hover) !important;
+}
+.sp-cnt-sidebar-item-focus {
+  background-color: var(--color-focus) !important;
+  padding: 10px;
+  background-color: var(--color-header);
+  margin-top: 5px;
+  border: 2px solid var(--color-focus-border);
+  color: var(--color-text-2);
   font-family: 'Segoe UI', sans-serif;
   font-weight: 500;
 }

@@ -1,5 +1,5 @@
 #myBtn {
-  display: flex;
+  display: none;
   position: fixed;
   bottom: 70px;
   right: 30px;
