@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- in-project reference links -->
+<link rel="stylesheet" href="..\styles\main.css">
+<link rel="stylesheet" href="..\styles\wideUse.css">
+<link rel="stylesheet" href="..\styles\header.css">
+<link rel="stylesheet" href="..\styles\homeContent.css">
+<link rel="stylesheet" href="..\styles\footer.css">
+<link rel="stylesheet" href="..\styles\sideMenuLeft.css">
+<link rel="stylesheet" href="..\styles\sideMenuRight.css">
+<link rel="stylesheet" href="..\styles\effects.css">
+<link rel="stylesheet" href="..\styles\mediaQueries.css">
+<link rel="stylesheet" href="..\styles\themes.css">
+<link rel="stylesheet" href="..\styles\toTopButton.css">
+<script src="..\script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- external reference links -->
+<script defer src="..\fontawesome-free-5.15.3-web/js/all.js"></script>
+<link href="..\fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+<!-- page info -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="../images/office/office.png">
+<title>Microsoft 365</title>
+
+</head>
+
+
+<body>
+
+    <!-- side menu panel left -->
+<div id="sidemenu-left-id" class="smenu-left">
+
+    <a href="javascript:void(0)" class="closebtn" onclick="closeMenuLeft()">&times;</a>
+    <a href="word.html">Word</a>
+    <a href="#">Excel</a>
+    <a href="#">Powerpoint</a>
+    <a href="#">OneNote</a>
+    <a href="#">Outlook</a>
+    <a href="#">Publisher</a>
+    <a href="sharepoint.html">Sharepoint</a>
+    <a href="#">OneDrive</a>
+    <a href="#">Teams</a>
+    <a href="#">Skype</a>
+    <a href="#">Access</a>
+    <a href="#" style="white-space:nowrap">To Do</a>
+    <a href="#">Planner</a>
+    <a href="#">Yammer</a>
+    <a href="#">Delve</a>
+    <p>&nbsp</p>
+    <p>&nbsp</p>
+    <p>&nbsp</p>
+    <a href="#">PWA</a>
+    <a href="#">Microsoft</a>
+
+</div>
+
+<!-- side menu panel right -->
+<div id="sidemenu-right-id" class="smenu-right">
+
+    <a href="javascript:void(0)" class="closebtn" onclick="closeMenuRight()">&times;</a>
+    <a class="noClick noHover smenu-big-right">Themes</a>
+    
+    <!-- themes switches -->
+    <div>
+        <label for="light" id="radio-label" class="smenu-small-right" style="pointer-events:visible;">Light
+            <input type="radio" name="radio" id="light" class="radios" onClick="themeLight()" checked/>
+        </label>
+    </div>
+
+    <div>
+        <label for="dark" id="radio-label" class="smenu-small-right" style="pointer-events:visible;">Dark
+            <input type="radio" name="radio" id="dark" class="radios" onClick="themeDark()"/>
+        </label>
+    </div>
+
+    <div>
+        <label for="blurple" id="radio-label" class="smenu-small-right" style="pointer-events:visible;">Blurple
+            <input type="radio" name="radio" id="blurple" class="radios" onClick="themeBlurple()"/>
+        </label>
+    </div>
+
+    <div>
+        <label for="ocean" id="radio-label" class="smenu-small-right" style="pointer-events:visible;">Ocean
+            <input type="radio" name="radio" id="ocean" class="radios" onClick="themeOcean()"/>
+        </label>
+    </div>
+
+    <div>
+        <label for="sunrise" id="radio-label" class="smenu-small-right" style="pointer-events:visible;">Sunrise
+            <input type="radio" name="radio" id="sunrise" class="radios" onClick="themeSunrise()"/>
+        </label>
+    </div>
+
+</div>
+
+<!-- headers -->
+<div class="hdr-main">
+
+    <div class="hdr-box hvr-sweep-to-right" style="cursor:pointer;" onclick="openMenuLeft()">
+        <span style="font-size:30px" class="hdr-text-left">&#9776; menu</span>
+    </div>
+    
+    <div class="hdr-box hdr">
+        <a href="index.html">
+            <span>
+                <h2 class="hdr-text-mid">Microsoft Office</h2>
+            </span>
+        </a>
+    </div>
+    
+    <div class="hdr-box hvr-sweep-to-left" style="cursor:pointer" onclick="openMenuRight()">
+        <span style="font-size:30px" class="hdr-text-right">opties &#9776;</span>
+    </div>
+
+</div>
+
+<!-- main content on page -->
+<div class="cnt-main" onclick="closeMenuLeft();closeMenuRight()">
+    <h1>Handleidingen Microsoft 365 producten</h1>
+
+    <div class="cnt-line-1">
+        <a href="webpages/word/word1.html" class="hvr-bob-a">
+            <div id="cnt-word-id" class="cnt-item">
+                <img src=..\images\office\word.jpg class="hvr-bob-img">
+            </div>
+        </a>
+    
+        <a href="webpages/excel/excel1.html" class="hvr-bob-a">
+            <div id="cnt-excel-id"class="cnt-item">
+                <img src=..\images\office\excel.jpg class="hvr-bob-img">
+            </div>
+        </a>
+    
+        <a href="webpages/powerpoint/powerpoint1.html" class="hvr-bob-a">
+            <div id="cnt-powerpoint-id" class="cnt-item">
+                <img src=..\images\office\powerpoint.jpg class="hvr-bob-img">
+            </div>
+        </a>
+    
+        <a href="webpages/onenote/onenote1.html" class="hvr-bob-a">
+            <div id="cnt-onenote-id" class="cnt-item">
+                <img src=..\images\office\onenote.jpg class="hvr-bob-img">
+            </div>
+        </a>
+    
+        <a href="webpages/outlook/outlook1.html" class="hvr-bob-a">
+            <div id="cnt-outlook-id" class="cnt-item">
+                <img src=..\images\office\outlook.jpg class="hvr-bob-img">
+            </div>
+        </a>
+    </div>
+    
+    <div class="cnt-line-2">
+        <a href="webpages/publisher/publisher1.html" class="hvr-bob-a">
+            <div id="cnt-publisher-id" class="cnt-item">
+                <img src=..\images\office\publisher.jpg class="hvr-bob-img">
+            </div>
+        </a>
+    
+        <a href="webpages/sharepoint/sharepoint1.html" class="hvr-bob-a">
+            <div id="cnt-sharepoint-id" class="cnt-item">
+                <img src=..\images\office\sharepoint.jpg class="hvr-bob-img">
+            </div>
+        </a>
+        
+        <a href="webpages/onedrive/onedrive1.html" class="hvr-bob-a">
+            <div id="cnt-onedrive-id"class="cnt-item">
+                <img src=..\images\office\onedrive.png class="hvr-bob-img">
+            </div>
+        </a>
+        
+        <a href="webpages/teams/teams1.html" class="hvr-bob-a">
+            <div id="cnt-teams-id" class="cnt-item">
+                <img src=..\images\office\teams.png class="hvr-bob-img">
+            </div>
+        </a>
+    
+        <a href="webpages/skype/skype1.html" class="hvr-bob-a">
+            <div id="cnt-skype-id" class="cnt-item">
+                <img src=..\images\office\skype.jpg class="hvr-bob-img">
+            </div>
+        </a>
+    </div>
+    
+    <div class="cnt-line-3">
+    
+        <a href="webpages/access/access1.html" class="hvr-bob-a">
+            <div id="cnt-access-id" class="cnt-item">
+                <img src=..\images\office\access.png class="hvr-bob-img">
+            </div>
+        </a>
+    
+        <a href="webpages/todo/todo1.html" class="hvr-bob-a">
+            <div id="cnt-todo-id"class="cnt-item">
+                <img src=..\images\office\todo.png class="hvr-bob-img">
+            </div>
+        </a>
+    
+        <a href="webpages/planner/planner1.html" class="hvr-bob-a">
+            <div id="cnt-planner-id" class="cnt-item">
+                <img src=..\images\office\planner.png class="hvr-bob-img">
+            </div>
+        </a>
+        
+        <a href="webpages/yammer/yammer1.html" class="hvr-bob-a">
+            <div id="cnt-yammer-id" class="cnt-item">
+                <img src=..\images\office\yammer.png class="hvr-bob-img">
+            </div>
+        </a>
+    
+        <a href="webpages/delve/delve1.html" class="hvr-bob-a">
+            <div id="cnt-delve-id" class="cnt-item">
+                <img src=..\images\office\delve.png class="hvr-bob-img">
+            </div>
+        </a>
+    </div>
+    
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+</div>
+
+<!-- footer -->
+<div class="ftr-main">
+    <a class="ftr-main-text" href="https://support.microsoft.com/contactus" target="_blank">Contact opnemen  met Microsoft</a>
+</div>
+
+
+<script>
+
+// jquery
+// remembering radio button
+$(function() {
+$('input[type=radio]').each(function() {
+    var state = JSON.parse( localStorage.getItem('radio_'  + this.id) );
+    
+    if (state) this.checked = state.checked;
+});
+});
+
+$(window).bind('unload', function() {
+    $('input[type=radio]').each(function()
+{
+    localStorage.setItem(
+        'radio_' + this.id, JSON.stringify({checked: this.checked})
+    );
+});
+});
+
+
+// javascript
+// to top of page button
+mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "flex";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+
+// google font loader
+WebFont.load({
+    google: {
+        families: ['Roboto']
+    }
+});
+    </script>
+</body>
+</html>
