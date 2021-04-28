@@ -1,8 +1,0 @@
-/* no decoration no hover no click */
-.noClick {
-  text-decoration: none;
-  cursor: default;
-}
-.noHover {
-  pointer-events: none !important;
-}
