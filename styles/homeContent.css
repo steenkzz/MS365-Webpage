@@ -1,0 +1,102 @@
+/* div of full content */
+.cnt-main {
+  background-color: var(--color-content);
+  color: var(--color-text);
+}
+/* divs of the three lines in main content div */
+.cnt-line-1 {
+  display: flex;
+  flex-direction: auto;
+  align-items: center;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.cnt-line-2 {
+  display: flex;
+  flex-direction: auto;
+  align-items: center;
+  margin-top: 0px;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.cnt-line-3 {
+  display: flex;
+  flex-direction: auto;
+  align-items: center;
+  margin-top: 0px;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+/* individual items in content lines*/
+.cnt-item {
+  height: 15%;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 0px;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cnt-item > img {
+  width: 50%;
+  height: 50%;
+  border-radius: 5%;
+}
+.cnt-item > a {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+/* ids of individual items in content lines */
+#cnt-word-id {
+  background-color: #2B5796;
+}
+#cnt-excel-id {
+  background-color: #207345;
+}
+#cnt-powerpoint-id {
+  background-color: #D14625;
+}
+#cnt-onenote-id {
+  background-color: #80397B;
+}
+#cnt-outlook-id {
+  background-color: #0B6FC5;
+}
+#cnt-publisher-id {
+  background-color: #267467;
+}
+#cnt-sharepoint-id {
+  background-color: #0D72BA;
+}
+#cnt-onedrive-id {
+  background-color: #094AB1;
+}
+#cnt-teams-id {
+  background-color: #5558AF;
+}
+#cnt-skype-id {
+  background-color: #15ACE5;
+}
+#cnt-access-id {
+  background-color: #A23335;
+}
+#cnt-todo-id {
+  background-color: #185ABD;
+}
+#cnt-planner-id {
+  background-color: #107C41;
+}
+#cnt-yammer-id {
+  background-color: #0078D4;
+}
+#cnt-delve-id {
+  background-color: #0072C6;
+}

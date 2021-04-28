@@ -1,0 +1,40 @@
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 70px;
+  right: 30px;
+  z-index: 98;
+  outline: none;
+  background-color: var(--color-button);
+  color: var(--color-text-2);
+  cursor: white;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 10%;
+  padding-left: 18px;
+  padding-right: 20px;
+}
+#myBtn:active {
+  background-color: grey;
+}
+#backBtn {
+  position: fixed;
+  float: left;
+  background-color: var(--color-button);
+  color: var(--color-text-2);
+  cursor: white;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 15px;
+  border: 2px solid black;
+  border-radius: 10%;
+  padding-left: 16px;
+  padding-right: 20px;
+  margin-top: 30px;
+  margin-left: 6%;
+}
+#backBtn:active {
+  background-color: grey;
+}
