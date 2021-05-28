@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="styles\footer.css">
 <link rel="stylesheet" href="styles\sideMenuLeft.css">
 <link rel="stylesheet" href="styles\sideMenuRight.css">
-<link rel="stylesheet" href="styles\effects.css">
+<link rel="stylesheet" href="styles\effects.css" media="all">
 <link rel="stylesheet" href="styles\mediaQueries.css">
 <link rel="stylesheet" href="styles\themes.css">
 <link rel="stylesheet" href="styles\toTopButton.css">
@@ -18,9 +18,11 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <!-- external reference links -->
-<script defer src="..\fontawesome-free-5.15.3-web/js/all.js"></script>
-<link href="..\fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet">
+<script defer src="fontawesome-free-5.15.3-web/js/all.js"></script>
+<link href="fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Farro&display=swap" rel="stylesheet">
 
 <!-- page info -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,26 +38,26 @@
 <div id="sidemenu-left-id" class="smenu-left">
 
     <a href="javascript:void(0)" class="closebtn" onclick="closeMenuLeft()">&times;</a>
-    <a href="word.html">Word</a>
-    <a href="#">Excel</a>
-    <a href="#">Powerpoint</a>
-    <a href="#">OneNote</a>
-    <a href="#">Outlook</a>
-    <a href="#">Publisher</a>
-    <a href="webpages/sharepoint1.html">Sharepoint</a>
-    <a href="#">OneDrive</a>
-    <a href="#">Teams</a>
-    <a href="#">Skype</a>
-    <a href="#">Access</a>
-    <a href="#" style="white-space:nowrap">To Do</a>
-    <a href="#">Planner</a>
-    <a href="#">Yammer</a>
-    <a href="#">Delve</a>
+    <a class="hvr-buzz-out pointer" href="#">Word</a>
+    <a class="hvr-buzz-out pointer" href="#">Excel</a>
+    <a class="hvr-buzz-out pointer" href="#">Powerpoint</a>
+    <a class="hvr-buzz-out pointer" href="#">OneNote</a>
+    <a class="hvr-buzz-out pointer" href="#">Outlook</a>
+    <a class="hvr-buzz-out pointer" href="#">Publisher</a>
+    <a href="webpages/sharepoint/sharepoint1.html">Sharepoint</a>
+    <a class="hvr-buzz-out pointer" href="#">OneDrive</a>
+    <a href="webpages/teams/teams1.html">Teams</a>
+    <a class="hvr-buzz-out pointer" href="#">Skype</a>
+    <a class="hvr-buzz-out pointer" href="#">Access</a>
+    <a class="hvr-buzz-out pointer" href="#">ToDo</a>
+    <a class="hvr-buzz-out pointer" href="#">Planner</a>
+    <a class="hvr-buzz-out pointer" href="#">Yammer</a>
+    <a class="hvr-buzz-out pointer" href="#">Delve</a>
     <p>&nbsp</p>
     <p>&nbsp</p>
     <p>&nbsp</p>
-    <a href="#">PWA</a>
-    <a href="#">Microsoft</a>
+    <a href="https://www.pwa.nl/" target="_blank">PWA</a>
+    <a href="https://www.microsoft.com/nl-nl" target="_blank">Microsoft</a>
 
 </div>
 
@@ -85,13 +87,13 @@
     </div>
 
     <div>
-        <label for="ocean" id="radio-label" class="smenu-small-right" style="pointer-events:visible;">Ocean
+        <label for="ocean" id="radio-label" class="smenu-small-right" style="pointer-events:visible;">Night
             <input type="radio" name="radio" id="ocean" class="radios" onClick="themeOcean()"/>
         </label>
     </div>
 
     <div>
-        <label for="sunrise" id="radio-label" class="smenu-small-right" style="pointer-events:visible;">Sunrise
+        <label for="sunrise" id="radio-label" class="smenu-small-right" style="pointer-events:visible;">Dawn
             <input type="radio" name="radio" id="sunrise" class="radios" onClick="themeSunrise()"/>
         </label>
     </div>
@@ -124,104 +126,117 @@
     <h1>Handleidingen Microsoft 365 producten</h1>
 
     <div class="cnt-line-1">
-        <a href="webpages/word/word1.html" class="hvr-bob-a">
-            <div id="cnt-word-id" class="cnt-item">
-                <img src=images\office\word.jpg class="hvr-bob-img">
+        <a href="#" class="hvr-bob-a">
+            <div tabindex="0" href="#" id="cnt-word-id" class="cnt-item">
+                <p class="img-text">Niet beschikbaar</p>
+                <img href="#" src=images\office\word.jpg class="hvr-bob-img cnt-blur">
             </div>
         </a>
     
-        <a href="webpages/excel/excel1.html" class="hvr-bob-a">
-            <div id="cnt-excel-id"class="cnt-item">
-                <img src=images\office\excel.jpg class="hvr-bob-img">
+        <a href="#" class="hvr-bob-a">
+            <div tabindex="0" href="#" id="cnt-excel-id"class="cnt-item">
+                <p class="img-text"><b>Niet beschikbaar</b></p>
+                <img href="#" src=images\office\excel.jpg class="hvr-bob-img cnt-blur">
             </div>
         </a>
     
-        <a href="webpages/powerpoint/powerpoint1.html" class="hvr-bob-a">
-            <div id="cnt-powerpoint-id" class="cnt-item">
-                <img src=images\office\powerpoint.jpg class="hvr-bob-img">
+        <a href="#" class="hvr-bob-a">
+            <div tabindex="0" href="#" id="cnt-powerpoint-id" class="cnt-item">
+                <p class="img-text">Niet beschikbaar</p>
+                <img href="#" src=images\office\powerpoint.jpg class="hvr-bob-img cnt-blur">
             </div>
         </a>
     
-        <a href="webpages/onenote/onenote1.html" class="hvr-bob-a">
-            <div id="cnt-onenote-id" class="cnt-item">
-                <img src=images\office\onenote.jpg class="hvr-bob-img">
+        <a href="#" class="hvr-bob-a">
+            <div tabindex="0" href="#" id="cnt-onenote-id" class="cnt-item">
+                <p class="img-text">Niet beschikbaar</p>
+                <img href="#" src=images\office\onenote.jpg class="hvr-bob-img cnt-blur">
             </div>
         </a>
     
-        <a href="webpages/outlook/outlook1.html" class="hvr-bob-a">
-            <div id="cnt-outlook-id" class="cnt-item">
-                <img src=images\office\outlook.jpg class="hvr-bob-img">
+        <a href="#" class="hvr-bob-a">
+            <div tabindex="0" href="#" id="cnt-outlook-id" class="cnt-item">
+                <p class="img-text">Niet beschikbaar</p>
+                <img href="#" src=images\office\outlook.jpg class="hvr-bob-img cnt-blur">
             </div>
         </a>
     </div>
     
     <div class="cnt-line-2">
-        <a href="webpages/publisher/publisher1.html" class="hvr-bob-a">
-            <div id="cnt-publisher-id" class="cnt-item">
-                <img src=images\office\publisher.jpg class="hvr-bob-img">
+        <a href="#" class="hvr-bob-a">
+            <div tabindex="0" href="#" id="cnt-publisher-id" class="cnt-item">
+                <p class="img-text">Niet beschikbaar</p>
+                <img href="#" src=images\office\publisher.jpg class="hvr-bob-img cnt-blur">
             </div>
         </a>
     
         <a href="webpages/sharepoint/sharepoint1.html" class="hvr-bob-a">
-            <div id="cnt-sharepoint-id" class="cnt-item">
-                <img src=images\office\sharepoint.jpg class="hvr-bob-img">
+            <div tabindex="0" href="#" id="cnt-sharepoint-id" class="cnt-item">
+                <img href="#" src=images\office\sharepoint.jpg class="hvr-bob-img">
             </div>
         </a>
         
-        <a href="webpages/onedrive/onedrive1.html" class="hvr-bob-a">
-            <div id="cnt-onedrive-id"class="cnt-item">
-                <img src=images\office\onedrive.png class="hvr-bob-img">
+        <a href="#" class="hvr-bob-a">
+            <div tabindex="0" href="#" id="cnt-onedrive-id"class="cnt-item">
+                <p class="img-text">Niet beschikbaar</p>
+                <img href="#" src=images\office\onedrive.png class="hvr-bob-img cnt-blur">
             </div>
         </a>
         
         <a href="webpages/teams/teams1.html" class="hvr-bob-a">
-            <div id="cnt-teams-id" class="cnt-item">
-                <img src=images\office\teams.png class="hvr-bob-img">
+            <div tabindex="0" href="#" id="cnt-teams-id" class="cnt-item">
+                <img href="#" src=images\office\teams.png class="hvr-bob-img">
             </div>
         </a>
     
-        <a href="webpages/skype/skype1.html" class="hvr-bob-a">
-            <div id="cnt-skype-id" class="cnt-item">
-                <img src=images\office\skype.jpg class="hvr-bob-img">
+        <a href="#" class="hvr-bob-a">
+            <div tabindex="0" href="#" id="cnt-skype-id" class="cnt-item">
+                <p class="img-text">Niet beschikbaar</p>
+                <img href="#" src=images\office\skype.jpg class="hvr-bob-img cnt-blur">
             </div>
         </a>
     </div>
     
     <div class="cnt-line-3">
     
-        <a href="webpages/access/access1.html" class="hvr-bob-a">
-            <div id="cnt-access-id" class="cnt-item">
-                <img src=images\office\access.png class="hvr-bob-img">
+        <a href="#" class="hvr-bob-a">
+            <div tabindex="0" href="#" id="cnt-access-id" class="cnt-item">
+                <p class="img-text">Niet beschikbaar</p>
+                <img href="#" src=images\office\access.png class="hvr-bob-img cnt-blur">
             </div>
         </a>
     
-        <a href="webpages/todo/todo1.html" class="hvr-bob-a">
-            <div id="cnt-todo-id"class="cnt-item">
-                <img src=images\office\todo.png class="hvr-bob-img">
+        <a href="#" class="hvr-bob-a">
+            <div tabindex="0" href="#" id="cnt-todo-id"class="cnt-item">
+                <p class="img-text">Niet beschikbaar</p>
+                <img href="#" src=images\office\todo.png class="hvr-bob-img cnt-blur">
             </div>
         </a>
     
-        <a href="webpages/planner/planner1.html" class="hvr-bob-a">
-            <div id="cnt-planner-id" class="cnt-item">
-                <img src=images\office\planner.png class="hvr-bob-img">
+        <a href="#" class="hvr-bob-a">
+            <div tabindex="0" href="#" id="cnt-planner-id" class="cnt-item">
+                <p class="img-text">Niet beschikbaar</p>
+                <img href="#" src=images\office\planner.png class="hvr-bob-img cnt-blur">
             </div>
         </a>
         
-        <a href="webpages/yammer/yammer1.html" class="hvr-bob-a">
-            <div id="cnt-yammer-id" class="cnt-item">
-                <img src=images\office\yammer.png class="hvr-bob-img">
+        <a href="#" class="hvr-bob-a">
+            <div tabindex="0" href="#" id="cnt-yammer-id" class="cnt-item">
+                <p class="img-text">Niet beschikbaar</p>
+                <img href="#" src=images\office\yammer.png class="hvr-bob-img cnt-blur">
             </div>
         </a>
     
-        <a href="webpages/delve/delve1.html" class="hvr-bob-a">
-            <div id="cnt-delve-id" class="cnt-item">
-                <img src=images\office\delve.png class="hvr-bob-img">
+        <a href="#" class="hvr-bob-a">
+            <div tabindex="0" href="#" id="cnt-delve-id" class="cnt-item">
+                <p class="img-text">Niet beschikbaar</p>
+                <img href="#" src=images\office\delve.png class="hvr-bob-img cnt-blur">
             </div>
         </a>
     </div>
     
     <button onclick="topFunction()" id="myBtn" title="Go to top">
-        <b🡱</b>
+        <i class="fas fa-arrow-up"></i>
     </button>
 
 </div>
