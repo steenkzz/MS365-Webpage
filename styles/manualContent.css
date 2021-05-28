@@ -26,6 +26,8 @@
   margin-left: 10%;
   white-space: nowrap;
   margin-right: 20px;
+  position: sticky;
+  top: 110px;
 }
 .sp-cnt-sidebar-item {
   background-color: grey;

@@ -6,3 +6,7 @@
 .noHover {
   pointer-events: none !important;
 }
+
+.pointer {
+  cursor:pointer; 
+}

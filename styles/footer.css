@@ -9,14 +9,14 @@
   padding-bottom: 15px;
   border-top: 3px solid black;
   background-color: var(--color-footer);
-  color: var(--color-text);
+  color: var(--color-text-2);
   text-align: center;
   z-index: 97;
 }
 .ftr-main > span {
-  color: var(--color-text);
+  color: var(--color-text-2);
 }
 .ftr-main-text {
   text-decoration: none;
-  color: var(--color-effect);
+  color: var(--color-footer-text);
 }

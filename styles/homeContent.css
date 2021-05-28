@@ -34,6 +34,8 @@
 }
 /* individual items in content lines*/
 .cnt-item {
+  position: relative;
+  text-align: center;
   height: 15%;
   text-align: center;
   padding-top: 10px;
@@ -54,10 +56,36 @@
   padding: 0;
   width: auto;
 }
+.cnt-item:focus .cnt-blur {
+  filter: blur(3px);
+}
+
+.img-text {
+  position: absolute;
+  display: none;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  z-index: 99;
+  font-size: 30px;
+  color: white;
+  -webkit-text-stroke: 1px black;
+  font-family: 'Farro', sans-serif;
+  font-weight: bold;
+  
+  white-space: nowrap;
+}
+.cnt-item:focus .img-text {
+  display: flex;
+  filter: blur(0px);
+}
+
+
 /* ids of individual items in content lines */
 #cnt-word-id {
   background-color: #2B5796;
 }
+
 #cnt-excel-id {
   background-color: #207345;
 }

@@ -17,7 +17,7 @@
   padding-right: 20px;
 }
 #myBtn:active {
-  background-color: grey;
+  background-color: var(--color-button-active);
 }
 #backBtn {
   position: fixed;
@@ -36,5 +36,28 @@
   margin-left: 6%;
 }
 #backBtn:active {
-  background-color: grey;
+  background-color: var(--color-button-active);
 }
+
+.fa,
+.fas,
+.far,
+.fal,
+.fad,
+.fab {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1; }
+
+.fa-arrow-up:before {
+  content: "\f062"; }
+
+  
+.fa,
+.fas {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900; }
